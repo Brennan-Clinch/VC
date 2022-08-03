@@ -22,16 +22,14 @@ def write_json(data,filename = '../response.json'):
 
 
 def call_sport():
-    name = input("Please add your name: ")
-    sport = input("Please add your favourite sports name: ")
+    name = input("Please add your name: Brennan Clinch")
+    sport = input("Please add your favourite sports name: Fishing")
     if (sport == ""):
-        sport = 'Fishing'
+        sport = 'Cricket'
     if (name):
-        response[name] = Brennan Clinch
-
-
+        response[name] = sport
         write_json(response)
 if __name__ == "__main__":
     call_sport()
 
-call_sport()
+call_sport)
